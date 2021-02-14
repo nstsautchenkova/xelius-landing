@@ -625,12 +625,12 @@ b {
     z-index: 1;
 }
 .video-bg video {
-    /* width: auto; */
-    /* height: auto; */
-    /* height: 100%; */
-    /* min-height: 100%; */
-    /* max-width: inherit; */
-	    width: 100%;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 .video-bg .img {
     position: absolute;
